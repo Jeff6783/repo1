@@ -1,2 +1,8 @@
-# repo1
-something,something
+build the car:
+  script:
+    - mkdir build
+    - cd build
+    - touch car.txt
+    - echo "chassis" > car.txt
+    - echo "engine" > car.txt
+    - echo "wheels" > car.txt
